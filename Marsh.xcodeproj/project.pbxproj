@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C662FD82F8B617E000E5667 /* resources_game in Resources */ = {isa = PBXBuildFile; fileRef = 5C662FD72F8B617E000E5667 /* resources_game */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C79DABB2F8A422F00C6299A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C662FD72F8B617E000E5667 /* resources_game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources_game; sourceTree = "<group>"; };
+		5C79CC222F89C9CB00C6299A /* Marsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C79CC392F89C9D700C6299A /* Exceptions for "Marsh" folder in "Marsh" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Frameworks/SDL2_image.framework,
+				Frameworks/SDL2_mixer.framework,
+				Frameworks/SDL2_ttf.framework,
+				Frameworks/SDL2.framework,
+				Info.plist,
+				src/First_Party/Instantiate.txt,
+				src/Third_Party/box2d/src/CMakeLists.txt,
+				src/Third_Party/glm/glm/detail/func_common_simd.inl,
+				src/Third_Party/glm/glm/detail/func_common.inl,
+				src/Third_Party/glm/glm/detail/func_exponential_simd.inl,
+				src/Third_Party/glm/glm/detail/func_exponential.inl,
+				src/Third_Party/glm/glm/detail/func_geometric_simd.inl,
+				src/Third_Party/glm/glm/detail/func_geometric.inl,
+				src/Third_Party/glm/glm/detail/func_integer_simd.inl,
+				src/Third_Party/glm/glm/detail/func_integer.inl,
+				src/Third_Party/glm/glm/detail/func_matrix_simd.inl,
+				src/Third_Party/glm/glm/detail/func_matrix.inl,
+				src/Third_Party/glm/glm/detail/func_packing_simd.inl,
+				src/Third_Party/glm/glm/detail/func_packing.inl,
+				src/Third_Party/glm/glm/detail/func_trigonometric_simd.inl,
+				src/Third_Party/glm/glm/detail/func_trigonometric.inl,
+				src/Third_Party/glm/glm/detail/func_vector_relational_simd.inl,
+				src/Third_Party/glm/glm/detail/func_vector_relational.inl,
+				src/Third_Party/glm/glm/detail/glm.cpp,
+				src/Third_Party/glm/glm/detail/type_half.inl,
+				src/Third_Party/glm/glm/detail/type_mat2x2.inl,
+				src/Third_Party/glm/glm/detail/type_mat2x3.inl,
+				src/Third_Party/glm/glm/detail/type_mat2x4.inl,
+				src/Third_Party/glm/glm/detail/type_mat3x2.inl,
+				src/Third_Party/glm/glm/detail/type_mat3x3.inl,
+				src/Third_Party/glm/glm/detail/type_mat3x4.inl,
+				src/Third_Party/glm/glm/detail/type_mat4x2.inl,
+				src/Third_Party/glm/glm/detail/type_mat4x3.inl,
+				src/Third_Party/glm/glm/detail/type_mat4x4_simd.inl,
+				src/Third_Party/glm/glm/detail/type_mat4x4.inl,
+				src/Third_Party/glm/glm/detail/type_quat_simd.inl,
+				src/Third_Party/glm/glm/detail/type_quat.inl,
+				src/Third_Party/glm/glm/detail/type_vec1.inl,
+				src/Third_Party/glm/glm/detail/type_vec2.inl,
+				src/Third_Party/glm/glm/detail/type_vec3.inl,
+				src/Third_Party/glm/glm/detail/type_vec4_simd.inl,
+				src/Third_Party/glm/glm/detail/type_vec4.inl,
+				src/Third_Party/glm/glm/ext/matrix_clip_space.inl,
+				src/Third_Party/glm/glm/ext/matrix_common.inl,
+				src/Third_Party/glm/glm/ext/matrix_projection.inl,
+				src/Third_Party/glm/glm/ext/matrix_relational.inl,
+				src/Third_Party/glm/glm/ext/matrix_transform.inl,
+				src/Third_Party/glm/glm/ext/quaternion_common_simd.inl,
+				src/Third_Party/glm/glm/ext/quaternion_common.inl,
+				src/Third_Party/glm/glm/ext/quaternion_exponential.inl,
+				src/Third_Party/glm/glm/ext/quaternion_geometric.inl,
+				src/Third_Party/glm/glm/ext/quaternion_relational.inl,
+				src/Third_Party/glm/glm/ext/quaternion_transform.inl,
+				src/Third_Party/glm/glm/ext/quaternion_trigonometric.inl,
+				src/Third_Party/glm/glm/ext/scalar_common.inl,
+				src/Third_Party/glm/glm/ext/scalar_constants.inl,
+				src/Third_Party/glm/glm/ext/scalar_integer.inl,
+				src/Third_Party/glm/glm/ext/scalar_packing.inl,
+				src/Third_Party/glm/glm/ext/scalar_relational.inl,
+				src/Third_Party/glm/glm/ext/scalar_ulp.inl,
+				src/Third_Party/glm/glm/ext/vector_common.inl,
+				src/Third_Party/glm/glm/ext/vector_integer.inl,
+				src/Third_Party/glm/glm/ext/vector_packing.inl,
+				src/Third_Party/glm/glm/ext/vector_relational.inl,
+				src/Third_Party/glm/glm/ext/vector_ulp.inl,
+				src/Third_Party/glm/glm/gtc/bitfield.inl,
+				src/Third_Party/glm/glm/gtc/color_space.inl,
+				src/Third_Party/glm/glm/gtc/constants.inl,
+				src/Third_Party/glm/glm/gtc/epsilon.inl,
+				src/Third_Party/glm/glm/gtc/integer.inl,
+				src/Third_Party/glm/glm/gtc/matrix_access.inl,
+				src/Third_Party/glm/glm/gtc/matrix_inverse.inl,
+				src/Third_Party/glm/glm/gtc/matrix_transform.inl,
+				src/Third_Party/glm/glm/gtc/noise.inl,
+				src/Third_Party/glm/glm/gtc/packing.inl,
+				src/Third_Party/glm/glm/gtc/quaternion_simd.inl,
+				src/Third_Party/glm/glm/gtc/quaternion.inl,
+				src/Third_Party/glm/glm/gtc/random.inl,
+				src/Third_Party/glm/glm/gtc/reciprocal.inl,
+				src/Third_Party/glm/glm/gtc/round.inl,
+				src/Third_Party/glm/glm/gtc/type_precision.inl,
+				src/Third_Party/glm/glm/gtc/type_ptr.inl,
+				src/Third_Party/glm/glm/gtc/ulp.inl,
+				src/Third_Party/glm/glm/gtx/associated_min_max.inl,
+				src/Third_Party/glm/glm/gtx/bit.inl,
+				src/Third_Party/glm/glm/gtx/closest_point.inl,
+				src/Third_Party/glm/glm/gtx/color_encoding.inl,
+				src/Third_Party/glm/glm/gtx/color_space_YCoCg.inl,
+				src/Third_Party/glm/glm/gtx/color_space.inl,
+				src/Third_Party/glm/glm/gtx/common.inl,
+				src/Third_Party/glm/glm/gtx/compatibility.inl,
+				src/Third_Party/glm/glm/gtx/component_wise.inl,
+				src/Third_Party/glm/glm/gtx/dual_quaternion.inl,
+				src/Third_Party/glm/glm/gtx/easing.inl,
+				src/Third_Party/glm/glm/gtx/euler_angles.inl,
+				src/Third_Party/glm/glm/gtx/extend.inl,
+				src/Third_Party/glm/glm/gtx/extended_min_max.inl,
+				src/Third_Party/glm/glm/gtx/exterior_product.inl,
+				src/Third_Party/glm/glm/gtx/fast_exponential.inl,
+				src/Third_Party/glm/glm/gtx/fast_square_root.inl,
+				src/Third_Party/glm/glm/gtx/fast_trigonometry.inl,
+				src/Third_Party/glm/glm/gtx/float_notmalize.inl,
+				src/Third_Party/glm/glm/gtx/functions.inl,
+				src/Third_Party/glm/glm/gtx/gradient_paint.inl,
+				src/Third_Party/glm/glm/gtx/handed_coordinate_space.inl,
+				src/Third_Party/glm/glm/gtx/hash.inl,
+				src/Third_Party/glm/glm/gtx/integer.inl,
+				src/Third_Party/glm/glm/gtx/intersect.inl,
+				src/Third_Party/glm/glm/gtx/io.inl,
+				src/Third_Party/glm/glm/gtx/log_base.inl,
+				src/Third_Party/glm/glm/gtx/matrix_cross_product.inl,
+				src/Third_Party/glm/glm/gtx/matrix_decompose.inl,
+				src/Third_Party/glm/glm/gtx/matrix_factorisation.inl,
+				src/Third_Party/glm/glm/gtx/matrix_interpolation.inl,
+				src/Third_Party/glm/glm/gtx/matrix_major_storage.inl,
+				src/Third_Party/glm/glm/gtx/matrix_operation.inl,
+				src/Third_Party/glm/glm/gtx/matrix_query.inl,
+				src/Third_Party/glm/glm/gtx/matrix_transform_2d.inl,
+				src/Third_Party/glm/glm/gtx/mixed_product.inl,
+				src/Third_Party/glm/glm/gtx/norm.inl,
+				src/Third_Party/glm/glm/gtx/normal.inl,
+				src/Third_Party/glm/glm/gtx/normalize_dot.inl,
+				src/Third_Party/glm/glm/gtx/number_precision.inl,
+				src/Third_Party/glm/glm/gtx/optimum_pow.inl,
+				src/Third_Party/glm/glm/gtx/orthonormalize.inl,
+				src/Third_Party/glm/glm/gtx/perpendicular.inl,
+				src/Third_Party/glm/glm/gtx/polar_coordinates.inl,
+				src/Third_Party/glm/glm/gtx/projection.inl,
+				src/Third_Party/glm/glm/gtx/quaternion.inl,
+				src/Third_Party/glm/glm/gtx/raw_data.inl,
+				src/Third_Party/glm/glm/gtx/rotate_normalized_axis.inl,
+				src/Third_Party/glm/glm/gtx/rotate_vector.inl,
+				src/Third_Party/glm/glm/gtx/scalar_relational.inl,
+				src/Third_Party/glm/glm/gtx/spline.inl,
+				src/Third_Party/glm/glm/gtx/std_based_type.inl,
+				src/Third_Party/glm/glm/gtx/string_cast.inl,
+				src/Third_Party/glm/glm/gtx/texture.inl,
+				src/Third_Party/glm/glm/gtx/transform.inl,
+				src/Third_Party/glm/glm/gtx/transform2.inl,
+				src/Third_Party/glm/glm/gtx/type_aligned.inl,
+				src/Third_Party/glm/glm/gtx/type_trait.inl,
+				src/Third_Party/glm/glm/gtx/vector_angle.inl,
+				src/Third_Party/glm/glm/gtx/vector_query.inl,
+				src/Third_Party/glm/glm/gtx/wrap.inl,
+			);
+			target = 5C79CC212F89C9CB00C6299A /* Marsh */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5C79DABC2F8A422F00C6299A /* Exceptions for "Marsh" folder in "Embed Frameworks" phase from "Marsh" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				Frameworks/SDL2.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+				Frameworks/SDL2_image.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+				Frameworks/SDL2_mixer.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+				Frameworks/SDL2_ttf.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 5C79DABB2F8A422F00C6299A /* Embed Frameworks */;
+			membershipExceptions = (
+				Frameworks/SDL2_image.xcframework,
+				Frameworks/SDL2_mixer.xcframework,
+				Frameworks/SDL2_ttf.xcframework,
+				Frameworks/SDL2.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C79CC242F89C9CB00C6299A /* Marsh */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C79CC392F89C9D700C6299A /* Exceptions for "Marsh" folder in "Marsh" target */,
+				5C79DABC2F8A422F00C6299A /* Exceptions for "Marsh" folder in "Embed Frameworks" phase from "Marsh" target */,
+			);
+			path = Marsh;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C79CC1F2F89C9CB00C6299A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C79CC192F89C9CB00C6299A = {
+			isa = PBXGroup;
+			children = (
+				5C662FD72F8B617E000E5667 /* resources_game */,
+				5C79CC242F89C9CB00C6299A /* Marsh */,
+				5C79DAB32F8A415B00C6299A /* Frameworks */,
+				5C79CC232F89C9CB00C6299A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C79CC232F89C9CB00C6299A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C79CC222F89C9CB00C6299A /* Marsh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C79DAB32F8A415B00C6299A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C79CC212F89C9CB00C6299A /* Marsh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C79CC3A2F89C9D700C6299A /* Build configuration list for PBXNativeTarget "Marsh" */;
+			buildPhases = (
+				5C79CC1E2F89C9CB00C6299A /* Sources */,
+				5C79CC1F2F89C9CB00C6299A /* Frameworks */,
+				5C79CC202F89C9CB00C6299A /* Resources */,
+				5C79DABB2F8A422F00C6299A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C79CC242F89C9CB00C6299A /* Marsh */,
+			);
+			name = Marsh;
+			packageProductDependencies = (
+			);
+			productName = Marsh;
+			productReference = 5C79CC222F89C9CB00C6299A /* Marsh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C79CC1A2F89C9CB00C6299A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					5C79CC212F89C9CB00C6299A = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 5C79CC1D2F89C9CB00C6299A /* Build configuration list for PBXProject "Marsh" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C79CC192F89C9CB00C6299A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C79CC232F89C9CB00C6299A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C79CC212F89C9CB00C6299A /* Marsh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C79CC202F89C9CB00C6299A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C662FD82F8B617E000E5667 /* resources_game in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C79CC1E2F89C9CB00C6299A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C79CC3B2F89C9D700C6299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBNPS3C9DH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Marsh/src/Third_Party",
+					"$(PROJECT_DIR)/Marsh/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/glm\"",
+					"$(PROJECT_DIR)/Marsh/src/Third_Party/rapidjson-1.1.0/include",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_ttf.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_mixer.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_image.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/box2d/src\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/box2d/include\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_image.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_ttf.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_mixer.xcframework/**\"",
+				);
+				INFOPLIST_FILE = Marsh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = tyrone.Marsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C79CC3C2F89C9D700C6299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBNPS3C9DH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Marsh/src/Third_Party",
+					"$(PROJECT_DIR)/Marsh/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/glm\"",
+					"$(PROJECT_DIR)/Marsh/src/Third_Party/rapidjson-1.1.0/include",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_ttf.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_mixer.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/SDL2_image.framework/Headers\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/box2d/src\"",
+					"\"$(PROJECT_DIR)/Marsh/src/Third_Party/box2d/include\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_image.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_ttf.xcframework/**\"",
+					"\"$(PROJECT_DIR)/Marsh/Frameworks/SDL2_mixer.xcframework/**\"",
+				);
+				INFOPLIST_FILE = Marsh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = tyrone.Marsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C79CC3D2F89C9D700C6299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NBNPS3C9DH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C79CC3E2F89C9D700C6299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NBNPS3C9DH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C79CC1D2F89C9CB00C6299A /* Build configuration list for PBXProject "Marsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C79CC3D2F89C9D700C6299A /* Debug */,
+				5C79CC3E2F89C9D700C6299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C79CC3A2F89C9D700C6299A /* Build configuration list for PBXNativeTarget "Marsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C79CC3B2F89C9D700C6299A /* Debug */,
+				5C79CC3C2F89C9D700C6299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C79CC1A2F89C9CB00C6299A /* Project object */;
+}

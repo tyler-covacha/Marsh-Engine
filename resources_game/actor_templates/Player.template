@@ -1,23 +1,19 @@
 {
-    "name": "Player",
-    "components": {
-        "1": {
-            "type": "Player"
-        },
-        "2": {
-            "type": "Transform"
-        },
-        "3": {
-            "type": "KeyboardControl"
-        },
-        "4": {
-            "type": "ClearFog"
-        },
-        "5": {
-            "type": "SpriteRenderer",
-            "sprite": "player",
-            "pivot_y": 1,
-            "auto_sorting_order": true
-        }
-    }
+	"name": "player",
+	"components": {
+		"1" : {
+			"type": "Rigidbody",
+			"collider_type": "box",
+			"radius": 0.45,
+			"density": 0.5,
+			"trigger_radius": 0.55
+		},
+		"2": {
+			"type": "PhoneControls"
+		},
+		"3": {
+			"type": "SpriteRenderer",
+			"sprite": "sandy"
+		}
+	}
 }

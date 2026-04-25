@@ -1,34 +1,20 @@
 {
 	"actors": [
 		{
-			"name": "IntroManager",
+			"name": "IntroImage",
 			"components": {
 				"1": {
-					"type": "IntroManager"
+					"type": "ImageUIRenderer",
+                    "sprite": "cutscene_crabs_1"
 				}
 			}
 		},
 		{
-			"name": "SceneTransitionManager",
+			"name": "SceneManager",
 			"components": {
 				"1": {
-					"type": "SceneTransitionManager"
-				}
-			}
-		},
-		{
-			"name": "CursorManager",
-			"components": {
-				"1": {
-					"type": "CursorManager"
-				}
-			}
-		},
-		{
-			"name": "hud",
-			"components": {
-				"1": {
-					"type": "Hud"
+					"type": "SceneManager",
+                    "next_scene_name": "controls"
 				}
 			}
 		}

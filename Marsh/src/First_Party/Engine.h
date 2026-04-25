@@ -76,6 +76,8 @@ public:
     int g = 0;
     int b = 0;
     int a = 0;
+    float scale_x;
+    float scale_y;
     int rendering_order;
     int id;
     
@@ -89,7 +91,7 @@ public:
         id = UI_id++;
         rendering_order = 0;
     }
-    DrawImageUIVariables(std::string _image_name, int _x, int _y, int _r, int _g, int _b, int _a, int _rendering_order) : image_name(_image_name), x(_x), y(_y), r(_r), g(_g), b(_b), a(_a) {
+    DrawImageUIVariables(std::string _image_name, int _x, int _y, int _r, int _g, int _b, int _a, int _rendering_order, float _scale_x, float _scale_y) : image_name(_image_name), x(_x), y(_y), r(_r), g(_g), b(_b), a(_a), scale_x(_scale_x), scale_y(_scale_y) {
         id = UI_id++;
         rendering_order = _rendering_order;
     }
@@ -230,7 +232,7 @@ class Engine {
     static void HaltAudio(int channel);
     static void SetVolume(int channel, int volume);
     static void ImageDrawUIFuncForLua(std::string image_name, float x, float y);
-    static void ImageDrawExUIFuncForLua(std::string image_name, float x, float y, float r, float g, float b, float a, float sorting_order);
+    static void ImageDrawExUIFuncForLua(std::string image_name, float x, float y, float r, float g, float b, float a, float sorting_order, float scale_x, float scale_y);
     static void ImageDrawFuncForLua(std::string image_name, float x, float y);
     static void ImageDrawExFuncForLua(std::string image_name, float x, float y, float rotation_degrees, float scale_x, float scale_y, float pivot_x, float pivot_y, float r, float g, float b, float a, float sorting_order);
     static void ImageDrawPixelFuncForLua(float x, float y, float r, float g, float b, float a);

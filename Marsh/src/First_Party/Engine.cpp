@@ -125,22 +125,25 @@ void Engine::SDLRendering() {
     
     // IPhone Window
 //#ifdef __IPHONEOS__
-//    SDL_Window *window = Helper::SDL_CreateWindow(
+//    EngineUtils::window = Helper::SDL_CreateWindow(
 //        title,
 //        SDL_WINDOWPOS_UNDEFINED,
 //        SDL_WINDOWPOS_UNDEFINED,
 //        0, 0,
-//        SDL_WINDOW_FULLSCREEN | SDL_WINDOW_ALLOW_HIGHDPI | SDL_WINDOW_BORDERLESS | SDL_WINDOW_METAL
+//        SDL_WINDOW_FULLSCREEN | SDL_WINDOW_ALLOW_HIGHDPI | SDL_WINDOW_BORDERLESS | SDL_WINDOW_METAL | SDL_WINDOW_SHOWN
 //    );
-//
+//    
 //    SDL_DisplayMode mode;
 //    SDL_GetCurrentDisplayMode(0, &mode);
 //    camera.width = mode.w;
 //    camera.height = mode.h;
+//    std::cout << camera.width << " " << camera.height << std::endl;
 //    x = mode.w;
 //    y = mode.h;
+//    
+//    SDL_Window *window = EngineUtils::window;
 //#else
-//    SDL_Window *window = Helper::SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, x, y, SDL_WINDOW_SHOWN);
+//    SDL_Window *window = Helper::SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, x, y, SDL_WINDOW_SHOWN | SDL_WINDOW_BORDERLESS | SDL_WINDOW_METAL);
 //#endif
     
     // Normal Windows
@@ -242,7 +245,7 @@ void Engine::SDLRendering() {
             });
 
         for (auto& d : draw_imageUI_vector) {
-            Rendering::DrawImageUI(d.image_name, d.x, d.y, d.r, d.g, d.b, d.a, renderer);
+            Rendering::DrawImageUI(d.image_name, d.x, d.y, d.r, d.g, d.b, d.a, d.scale_x, d.scale_y, renderer);
         }
         draw_imageUI_vector.clear();
         
@@ -420,8 +423,8 @@ void Engine::ImageDrawUIFuncForLua(std::string image_name, float x, float y) {
     draw_imageUI_vector.push_back(image);
 }
 
-void Engine::ImageDrawExUIFuncForLua(std::string image_name, float x, float y, float r, float g, float b, float a, float sorting_order) {
-    DrawImageUIVariables image(image_name, (int)x, (int)y, (int)r, (int)g, (int)b, (int)a, (int)sorting_order);
+void Engine::ImageDrawExUIFuncForLua(std::string image_name, float x, float y, float r, float g, float b, float a, float sorting_order, float scale_x, float scale_y) {
+    DrawImageUIVariables image(image_name, (int)x, (int)y, (int)r, (int)g, (int)b, (int)a, (int)sorting_order, scale_x, scale_y);
     draw_imageUI_vector.push_back(image);
 }
 

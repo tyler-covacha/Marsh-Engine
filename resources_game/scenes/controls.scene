@@ -1,0 +1,21 @@
+{
+	"actors": [
+		{
+			"name": "ControlText",
+			"components": {
+				"1": {
+					"type": "ControlsText"
+				}
+			}
+		},
+		{
+			"name": "SceneManager",
+			"components": {
+				"1": {
+					"type": "SceneManager",
+                    "next_scene_name": "basic"
+				}
+			}
+		}
+	]
+}

@@ -76,7 +76,7 @@ class Rendering {
         }
     }
     
-    static void DrawImageUI(std::string image_name, int x, int y, int r, int g, int b, int a, SDL_Renderer* renderer) {
+    static void DrawImageUI(std::string image_name, int x, int y, int r, int g, int b, int a, float scale_x, float scale_y, SDL_Renderer* renderer) {
         
 //        std::string image_filepath = "resources_game/images/" + image_name + ".png";
         SDL_Texture* image_texture = images[image_name];
@@ -85,7 +85,9 @@ class Rendering {
 
         float w, h;
         Helper::SDL_QueryTexture(image_texture, &w, &h);
-        SDL_FRect image_rect = {(float)x, (float)y, w, h};
+        float scaled_w = w * glm::abs(scale_x);
+        float scaled_h = h * glm::abs(scale_y);
+        SDL_FRect image_rect = {(float)x, (float)y, scaled_w, scaled_h};
             
 //        Helper::SDL_RenderCopy(renderer, image_texture, NULL, &image_rect);
         Helper::SDL_RenderCopyEx(-1, "", renderer, image_texture, NULL, &image_rect, 0, NULL, SDL_FLIP_NONE);

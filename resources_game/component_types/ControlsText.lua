@@ -8,7 +8,7 @@ ControlsText = {
     sorting_order = 999,
 
     OnStart = function(self)
-        Audio.Play(5, "Pre_Battle_1C", 0)
+        Audio.Play(5, "Battle_1B", 0)
     end,
 
     OnUpdate = function(self)

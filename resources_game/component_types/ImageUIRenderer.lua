@@ -6,9 +6,12 @@ ImageUIRenderer = {
     b = 255,
     a = 255,
     sorting_order = 999,
+    play_intro = true,
 
     OnStart = function(self)
-        Audio.Play(5, "TitleScreen_1A_mp3", 0)
+        if self.play_intro then
+            Audio.Play(5, "TitleScreen_1A_mp3", 0)
+        end
     end,
 
     OnUpdate = function(self)

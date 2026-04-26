@@ -9,6 +9,16 @@
 			}
 		},
 		{
+			"name": "IntroImage",
+			"components": {
+				"1": {
+					"type": "ImageUIRenderer",
+                    "sprite": "sandy_portrait_selected",
+					"play_intro" : false
+				}
+			}
+		},
+		{
 			"name": "SceneManager",
 			"components": {
 				"1": {

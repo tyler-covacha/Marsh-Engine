@@ -56,7 +56,7 @@ GameManager = {
 			end
 		end
 
-        Audio.Play(5, "Battle_1B", 0)
+        Audio.Play(5, "Pre_Battle_1C", 0)
 	end,
 
 	OnUpdate = function(self)
